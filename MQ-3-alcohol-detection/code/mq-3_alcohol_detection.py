@@ -16,3 +16,4 @@ while True:                 #inifite loop for alcohol detection
         print("alcohol detected",GPIO.input(8))  #returns alcohol detected
         GPIO.output(10,0)   #turning OFF engine
     sleep(0.5)              #stops execution for 0.5 seconds
+#testing
